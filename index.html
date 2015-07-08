@@ -8,6 +8,10 @@
 </head>
 
 <style>
+	body{
+		color:white;
+		font-family: sans-serif;
+	}
 	header{
 		width:90%;
 		margin:2% auto;
@@ -15,10 +19,12 @@
 	}
 
 	nav{
-		padding:5%;
+		padding:3.3%;
 		position:relative;
-		top:85px;
+		top:50px;
 		background:#2E0854;
+		text-align: left;
+		border-radius: 5px;
 	}
 
 	#logo{
@@ -33,13 +39,36 @@
 		top:4%;
 		background:lightGrey;
 	}
+
+	nav ul li{
+		display: inline-block;
+	}
+
+	.left{
+		margin:0 2.5% 0 5%;
+	}
+	.right{
+		float:right;
+		margin:0 2.5% 0 5%;
+	}
+
+
+	a:link, a:visited{
+		font-size:1.5em;
+		color:white;
+	}
 </style>
 <body>
 
 	<!-- Header -->
 	<header>
 		<nav>
-
+			<ul>
+				<li class="left"><a href="#">Home</a></li>
+				<li class="left"><a href="#">About</a></li>
+				<li class="right"><a href="#">Contact</a></li>
+				<li class="right"><a href="#">Components</a></li>
+			</ul>
 		</nav>
 		<div id="logo">
 			<img src="img/logo.png" alt="BlackTurtle Designs" />
