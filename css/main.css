@@ -96,7 +96,49 @@ WSP COMPONENT LIBRARY STYLESHEET
 
 /* COMPONENTS SPECIFIC ======================================== */
 
+	.blog{
+		padding:0;
+		overflow: auto;;
+	}
+	.blogHead{
+		padding:2%;
+		background:#2E0854;
+		text-align: center;
+	}
+	.blogHead > img{
+		width:75%;
+	}
+	.blogHead h2{
+		font-size:2.3em;
+		margin:1% 0 2% 8%;
+		text-align: left;
+		border-bottom:2px solid white;
+		width:85%;
+	}
+	.blogPost{
+		padding:2% 5%;
+		width:90%;
+		margin:auto;
 
+
+	}
+	.blogPost h3{
+		font-weight:bold;
+		font-size: 1.3em;
+		clear:both;
+		width:90%;
+	}
+
+	h3 + p{
+		margin:1%;
+		width:98%;
+		font-size:1.2em;
+		line-height:1.5em;
+	}
+
+	#landing > img, #mobileCTA > img{
+		width:35%;
+	}
 
 
 
