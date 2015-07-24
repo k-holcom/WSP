@@ -6,3 +6,74 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+
+body{
+	font-family:arial, sans-serif;
+	background-image:url('component.jpg');
+}
+
+article{
+	box-sizing:box-border;
+	width:98%;
+	padding:1%;
+	margin:auto;
+	background-color:white;
+	overflow:auto;
+	margin:1%;
+}
+
+section{
+	box-sizing:box-border;
+	width:31%;
+	padding:1%;
+	margin:1%;
+	float:left;
+	border-right:1px solid lightGrey;
+}
+
+section:last-of-type{
+	border:none;
+}
+
+img{
+	width:95%;
+	text-align: center;
+}
+h2{
+	font-size: 2em;
+	margin-bottom:2.5%;
+	font-weight: bold;
+}
+
+h4{
+	color:#42A76F;
+	font-size: 1.3em;
+	font-weight:bold;
+	float:left;
+	clear:left;
+	margin:3% 0;
+}
+
+p{
+	line-height: 1.5em;
+	width:95%;
+}
+
+#history p{
+	width:50%;
+	float: left;
+	margin: 3% 0 0 8%;
+}
+
+ul{
+	list-style:inside;
+	list-style-image: url('../../img/bullet.png');
+	color:#42A76F;
+	font-size:1.3em;
+	font-weight: bold;
+	margin-top:4%;
+}
+
+li{
+	line-height: 2.9em;
+}

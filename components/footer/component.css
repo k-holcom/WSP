@@ -6,3 +6,105 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+body{
+	background:url('component.jpg');
+}
+
+footer{
+	color:#fff;
+	box-sizing:border-box;
+	width:96%;
+	margin:3% auto;
+	padding:1%;
+	background: url('../../img/footerBG.jpg') no-repeat top center;
+	background-size: 98%;
+	overflow: auto;
+	font-family:Arial, sans-serif;
+}
+
+h3::before{
+	content:url('../../img/cube-only.png');
+	position:relative;
+	left:8.9%;
+	top:-22px;
+}
+
+h3{
+	width:50%;
+	font-family:Arial, sans-serif;
+	position:relative;
+	left:44.2%;
+	top:20px;
+	font-size:1.2em;
+}
+
+h3 + p{
+	font-size:1.2em;
+	text-transform: uppercase;
+	position:relative;
+	top:50px;
+	text-align: center;
+	line-height: 0.75;
+	color:#555354;
+}
+
+p img{
+	width:1.5%;
+	position:relative;
+	top:8px;
+}
+section{
+	width:30%;
+	float:left;
+	margin: 5% 2%;
+	color:#555354;
+}
+
+h4, section:last-of-type{
+	text-transform:uppercase;
+}
+
+h4{
+	font-size:1.5em;
+	margin-bottom:4%;
+	color:#fff;	
+}
+p{
+	font-size:1.3em;
+	line-height: 1.3em;
+	margin-bottom:2%;
+}
+
+ul{
+	margin:3% 0;
+}
+
+li{
+	display:inline-block;
+	width:10%;
+	text-align: center;
+}
+
+li img{
+	width:80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
