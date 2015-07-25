@@ -6,3 +6,25 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+
+body{
+	background:url('component.jpg');
+}
+
+section{
+	width:38%;
+	margin:2% auto;
+	cursor: pointer;
+}
+
+h2{
+	width:60%;
+	color:#333;
+	font-size: 4em;
+	position:relative;
+	top:-550px;
+	font-family:Arial, sans-serif;
+	font-weight: bolder;
+	height:100px;
+	margin:1% 3%;
+}

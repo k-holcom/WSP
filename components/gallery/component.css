@@ -6,3 +6,37 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+body{
+	background:url('component.jpg');
+}
+
+article{
+	box-sizing:border-box;
+	width:70%;
+	background:#fff;
+	text-align: center;
+	margin:2% auto;
+	overflow: auto;
+	padding:1%;
+}
+article img{
+	margin-bottom:2%;
+}
+section{
+	margin:auto;
+	box-sizing:border-box;
+	width:53%;
+	padding:1%;
+	text-align: center;
+}
+
+a{
+	float:left;
+	margin:4.5% 1%;
+}
+
+ul li{
+	float:left;
+	display:inline-block;
+	margin:1%;
+}

@@ -6,3 +6,72 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+
+body{
+	background:url('component.jpg');
+	color:#fff;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+article{
+	box-sizing:border-box;
+	width:40%;
+	margin:2% auto;
+}
+section{
+	box-sizing:border-box;
+	width:50%;
+	float:left;
+	background:#ce9b5a;
+	padding:10%;
+}
+
+section:first-of-type, section:last-of-type{
+	background:#c88e44;
+}
+
+#classes::before{
+	content:url('../../img/darkClass.png');
+	float:left;
+	position:relative;
+	top:-65px;
+	left:51%;
+
+}
+
+#community::before{
+	content:url('../../img/darkCommunity.png');
+	float:left;
+	position:relative;
+	top:-65px;
+	left:51%;
+}
+
+#center::before{
+	content:url('../../img/darkBook.png');
+	float:left;
+	position:relative;
+	top:-69px;
+	left:51%;
+}
+#community, #classes{
+	float:left;
+	position:relative;
+	left:-7%;
+	top:40px;
+}
+
+#dinner, #center{
+	float:left;
+	position:relative;
+	left:-20%;
+	top:40px;
+}
+
+#dinner::before{
+	content:url('../../img/darkDinner.png');
+	float:left;
+	position:relative;
+	top:-65px;
+	left:51%;
+}

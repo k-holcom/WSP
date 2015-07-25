@@ -6,3 +6,38 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+body{
+	background:url('component.jpg');
+}
+article{
+	box-sizing:border-box;
+	width:50%;
+	padding:1;
+	border:1px solid black;
+	padding:2% 2% 2% 7%;
+	background:#201b10;
+	margin:2% auto;
+}
+
+h2{
+	font-size:2.5em;
+	margin-bottom:4%;
+	color:#fcf4b8;
+}
+
+section{
+	margin-bottom:3%;
+}
+
+h5, address, p{
+	color:#c3c4a8;
+}
+
+address + p{
+	margin-top:3%;
+}
+
+span{
+	color:#ff4f00;
+}
+c3c4a8
