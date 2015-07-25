@@ -6,3 +6,31 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+
+section{
+	width:80%;
+	background:#40dd8e;
+	overflow: auto;
+	font-family:arial, sans-serif;
+	margin:2% auto;
+}
+img{
+	width:5%;
+}
+h4{
+	float:left;
+	margin:2.5% 3% 2.5% 10%;
+	font-size:1.1em;
+	color:#fff;
+	font-weight:bold;
+
+}
+
+ul{
+	margin:1.8% 3%;
+	float:left;
+}
+ul li{
+	display:inline;
+	margin:auto 1.5%;
+}

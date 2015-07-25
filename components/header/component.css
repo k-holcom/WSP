@@ -1,6 +1,6 @@
 /* 
 ================================================================================
-COMPONENT STYLESHEET
+COMPONENT STYLESHEET -- HEADER
 ================================================================================ */
 
 /* HEADER ======================================== */
@@ -11,7 +11,7 @@ body{
 }
 header{
 	background-color:#171717;
-	padding: 0 5% 0 5%;
+	padding: 0 5% ;
 	overflow:auto;
 	font-family:Arial, sans-serif;
 }
@@ -36,16 +36,15 @@ ul{
 
 ul li{
 	display:inline-block;
-	float:left;
 	padding:10.4% 2% 2% 2%;
 	width:13%;
-	border-left:1px solid lightGrey;
+	border-left:1px solid #d3d3d3;
 	text-align: center;
 	float:right;
 }
 
 ul li:first-of-type{
-	border-right:1px solid lightGrey;
+	border-right:1px solid #d3d3d3;
 }
 
 ul li:hover, ul li:active, .active{

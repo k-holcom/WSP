@@ -6,3 +6,65 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+body{
+	background:url('component.jpg');
+	font-family:Arial, sans-serif;
+}
+article{
+	width:80%;
+	background:#fff;
+	overflow: auto;
+	margin:2% auto;
+}
+
+h2{
+	color:#231411;
+	font-size: 2.2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+h4{
+	margin-top:1%;
+	color:#2bbeb6;
+	text-align: center;
+	font-weight:bold;
+}
+
+section{
+	box-sizing:border-box;
+	width:80%;
+	padding:2%;
+	margin:0 9%;
+	float:left;
+}
+
+img{
+	float:left;
+	width:20%;
+	margin-right:2%;
+}
+
+h3{
+	float:left;
+	margin-left:3%;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+p{
+	float:left;
+	width:50%;
+	margin:2% 3%;
+	padding: 1% 7% 1% 1%;
+}
+
+section date:last-child{
+	float: right;
+	width:8%;
+	padding-right:5%;
+	font-weight: bold;
+	font-size:1.5em;
+	text-align: center;
+	margin-left: 3%;
+
+}

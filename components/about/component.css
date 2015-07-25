@@ -1,6 +1,6 @@
 /* 
 ================================================================================
-COMPONENT STYLESHEET
+COMPONENT STYLESHEET -- ABOUT
 ================================================================================ */
 
 /* HEADER ======================================== */
@@ -13,22 +13,21 @@ body{
 }
 
 article{
-	box-sizing:box-border;
+	box-sizing:border-box;
 	width:98%;
 	padding:1%;
 	margin:auto;
-	background-color:white;
+	background-color:#fff;
 	overflow:auto;
-	margin:1%;
 }
 
 section{
-	box-sizing:box-border;
+	box-sizing:border-box;
 	width:31%;
 	padding:1%;
 	margin:1%;
 	float:left;
-	border-right:1px solid lightGrey;
+	border-right:1px solid #d3d3d3;
 }
 
 section:last-of-type{
@@ -66,7 +65,6 @@ p{
 }
 
 ul{
-	list-style:inside;
 	list-style-image: url('../../img/bullet.png');
 	color:#42A76F;
 	font-size:1.3em;
