@@ -58,7 +58,7 @@ WSP COMPONENT LIBRARY STYLESHEET
 
 
 /* ABOUT SPECIFIC ======================================== */
-	section{
+	article{
 		background:grey;
 		position:relative;
 		top:100px;

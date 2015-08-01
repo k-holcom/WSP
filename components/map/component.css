@@ -6,9 +6,6 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
-body{
-	background:url('component.jpg');
-}
 article{
 	box-sizing:border-box;
 	width:50%;

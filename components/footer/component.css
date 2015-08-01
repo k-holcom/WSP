@@ -7,13 +7,12 @@ COMPONENT STYLESHEET -- FOOTER
 
 /* HEADER ======================================== */
 body{
-	background:url('component.jpg');
 }
 
 footer{
 	color:#fff;
 	box-sizing:border-box;
-	width:96%;
+	width:80%;
 	margin:3% auto;
 	padding:1%;
 	background: url('../../img/footerBG.jpg') no-repeat top center;
@@ -22,20 +21,13 @@ footer{
 	font-family:Arial, sans-serif;
 }
 
-h3::before{
-	content:url('../../img/cube-only.png');
-	position:relative;
-	left:8.9%;
-	top:-22px;
-}
 
 h3{
-	width:50%;
 	font-family:Arial, sans-serif;
-	position:relative;
-	left:44.2%;
-	top:20px;
+	text-align:center;
 	font-size:1.2em;
+	padding-top:3%;
+
 }
 
 h3 + p{
@@ -65,12 +57,12 @@ h4, section:last-of-type{
 }
 
 h4{
-	font-size:1.5em;
+	font-size:1.3em;
 	margin-bottom:4%;
 	color:#fff;	
 }
 p{
-	font-size:1.3em;
+	font-size:1.1em;
 	line-height: 1.3em;
 	margin-bottom:2%;
 }

@@ -6,13 +6,9 @@ COMPONENT STYLESHEET -- GALLERY
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
-body{
-	background:url('component.jpg');
-}
 
 article{
 	box-sizing:border-box;
-	width:70%;
 	background:#fff;
 	text-align: center;
 	margin:2% auto;
@@ -23,20 +19,40 @@ article img{
 	margin-bottom:2%;
 }
 section{
-	margin:auto;
 	box-sizing:border-box;
-	width:53%;
 	padding:1%;
+	overflow:auto;
 	text-align: center;
 }
 
-a{
-	float:left;
-	margin:4.5% 1%;
+ul{
+	width:50%;
+	margin:auto;
+}
+
+ul::before{
+	content:url('../../img/larrow.png');
+	position:relative;
+	bottom:30px;
+	width:15%;
+	cursor: pointer;
+}
+
+ul::after{
+	content:url('../../img/rarrow.png');
+	position:relative;
+	bottom:30px;
+	cursor: pointer;
 }
 
 ul li{
-	float:left;
+	margin:auto;
 	display:inline-block;
+	width:14.2857%;
 	margin:1%;
 }
+
+ul li img{
+	width:100%;
+}
+
